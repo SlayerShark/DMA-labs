@@ -14,6 +14,7 @@ public class MainActivity<button> extends AppCompatActivity {
     private Button toastButton;
     private Button countButton;
     private TextView countText;
+    private int count = 0;
 
 
     @Override
@@ -24,14 +25,14 @@ public class MainActivity<button> extends AppCompatActivity {
         countButton = findViewById(R.id.btn_count);
         countText = findViewById(R.id.count_text_view);
 
-       /* toastButton.setOnClickListener(new View.OnClickListener() {
+        toastButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "this is toast", Toast.LENGTH_LONG).show();
             }
         });
 
-        countButton.setOnClickListener(new View.OnClickListener() {
+/*        countButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 count++;
@@ -44,13 +45,13 @@ public class MainActivity<button> extends AppCompatActivity {
 
     ;
 
-/*    public void toastClick(View view) {
+    public void toastClick(View view) {
         if (view.getId() == R.id.btn_toast){
             Toast.makeText(MainActivity.this, "this is toast increment", Toast.LENGTH_LONG).show();
         }else if (view.getId() == R.id.btn_count){
             count++;
             countText.setText(""+count);
         }
-    }*/
+    }
 }
 
