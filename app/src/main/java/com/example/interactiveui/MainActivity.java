@@ -40,16 +40,17 @@ public class MainActivity<button> extends AppCompatActivity {
             }
         });*/
 
-        };
+    }
 
-    public void toastClick(View view) {
+    ;
+
+/*    public void toastClick(View view) {
         if (view.getId() == R.id.btn_toast){
             Toast.makeText(MainActivity.this, "this is toast increment", Toast.LENGTH_LONG).show();
         }else if (view.getId() == R.id.btn_count){
             count++;
             countText.setText(""+count);
         }
-    }
-
-
+    }*/
 }
+

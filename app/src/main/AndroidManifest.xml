@@ -11,6 +11,9 @@
         android:theme="@style/Theme.InteractiveUI">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
